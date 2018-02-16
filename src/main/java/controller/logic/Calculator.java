@@ -17,10 +17,15 @@ public class Calculator implements IMathOperator{
 		int d=a+b;
 		System.out.println("Sum is =" + d);
 	}
+	 public void multiplication(int a, int b) {
+		int m= a*b;
+		System.out.println("Multiplication is =" +m);
+	}
 	@Test
 	public void launchApp() {
 		addition(a,b);
 		substraction(a,b);
+		multiplication(a, b);
 	}
 }
 
